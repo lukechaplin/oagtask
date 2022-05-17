@@ -1,13 +1,13 @@
 <mxfile host="65bd71144e">
     <diagram id="ghA7Iir9uGFkGj2unpV4" name="Page-1">
-        <mxGraphModel dx="1080" dy="853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="682" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="4" value="" style="edgeStyle=none;html=1;" parent="1" source="2" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="Bootcamp Dojo" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="2" value="Backend server" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="350" y="10" width="120" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="" style="edgeStyle=none;html=1;" parent="1" target="7" edge="1">
@@ -15,228 +15,53 @@
                         <mxPoint x="352.3076923076924" y="170" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; display: inline ; float: none&quot;&gt;Component Folder&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="3" value="&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; display: inline ; float: none&quot;&gt;Routes&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="350" y="140" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7">
+                <mxCell id="9" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="7" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="350" y="270" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7">
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="160" y="340.0000000000002" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="7" value="Light Mode/Dark Mode Button" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="7" value="Route for searching all flights (using API endpoint Flight info 1.0)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="100" y="240" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="darkmode.js" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="10" value="HTML address with /allflights/[parameter]" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="350" y="240" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="600" y="270.0000000000002" as="targetPoint"/>
                         <mxPoint x="470" y="269.9999999999998" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="13" value="User toggles button to choose between LM/DM" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="600" y="240" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="16" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="18">
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="18" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="350" y="370" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="18">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="160" y="440.0000000000002" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="18" value="Navbar" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="18" value="Route for searching schedules (using API endpoint Schedules)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="100" y="340" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="navbar.js" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="19" value="navbar.js" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="350" y="340" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+                <mxCell id="20" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="600" y="370.0000000000002" as="targetPoint"/>
                         <mxPoint x="470" y="369.9999999999998" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="21" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Allows the user to go to HOME and also NAVLINK (useful resources, i.e. w3schools)&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="600" y="340" width="120" height="60" as="geometry"/>
+                <mxCell id="13" value="Includes fetch request that can pass a parameter from HTML address so will pull back required data e.g. departure date.&amp;nbsp;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="240" width="270" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="24">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="350" y="470" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="23" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="24">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="160" y="540.0000000000002" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="24" value="USER INPUT/choice" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="100" y="440" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="25" value="userchoice.js" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="350" y="440" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="26" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="600" y="470.0000000000002" as="targetPoint"/>
-                        <mxPoint x="470" y="469.9999999999998" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="27" value="Allows user to select their type of test exercise" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="600" y="440" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="28" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="30">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="350" y="570" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="30">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="160" y="640.0000000000002" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="30" value="User Workspace" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="100" y="540" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="31" value="workspace.js" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="350" y="540" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="32" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="600" y="570.0000000000002" as="targetPoint"/>
-                        <mxPoint x="470" y="569.9999999999998" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="33" value="User's main test area (where quiz questions are presented)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="600" y="540" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="34" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="36">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="350" y="670" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="35" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="36">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="160" y="740.0000000000002" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="36" value="Challenge Description" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="100" y="640" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="37" value="testdescription.js" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="350" y="640" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="38" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="600" y="670.0000000000002" as="targetPoint"/>
-                        <mxPoint x="470" y="669.9999999999998" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="39" value="Displays the test information (body) to assist the user in completing the test" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="600" y="640" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="40" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="42">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="350" y="770" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="41" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="42">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="160" y="840.0000000000002" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="42" value="Hints/Tips" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="100" y="740" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="43" value="hints.js" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="350" y="740" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="44" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="600" y="770.0000000000002" as="targetPoint"/>
-                        <mxPoint x="470" y="769.9999999999998" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="45" value="If the user gets stuck, they can hover (CSS?) over the hints area for a clue" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="600" y="740" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="46" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="48">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="350" y="870" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="47" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="48">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="160" y="940.0000000000002" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="48" value="Reset Button" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="100" y="840" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="49" value="reset.js" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="350" y="840" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="50" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="600" y="870.0000000000002" as="targetPoint"/>
-                        <mxPoint x="470" y="869.9999999999998" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="51" value="Allows the user to reset the test to attempt it again" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="600" y="840" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="52" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="54">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="350" y="970" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="53" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="54">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="160" y="1040.0000000000002" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="54" value="Submit Button" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="100" y="940" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="55" value="submit.js" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="350" y="940" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="56" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="600" y="970.0000000000002" as="targetPoint"/>
-                        <mxPoint x="470" y="969.9999999999998" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="57" value="Allows the user to submit their test to be verified and scored" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="600" y="940" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="58" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="60">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="350" y="1070" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="60" value="Score (% progress bar, if enough time)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="100" y="1040" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="61" value="score.js" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="350" y="1040" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="62" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="600" y="1070.0000000000002" as="targetPoint"/>
-                        <mxPoint x="470" y="1069.9999999999998" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="63" value="Displays score to the user tyo show them how well they are doing" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="600" y="1040" width="120" height="60" as="geometry"/>
+                <mxCell id="63" value="Includes fetch request that can pass a parameter from HTML address so will pull back required data e.g. departure date.&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="350" width="270" height="90" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
