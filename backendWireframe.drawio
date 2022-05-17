@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="ghA7Iir9uGFkGj2unpV4" name="Page-1">
-        <mxGraphModel dx="682" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="409" dy="273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -48,7 +48,7 @@
                 <mxCell id="18" value="Route for searching schedules (using API endpoint Schedules)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="100" y="340" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="navbar.js" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="19" value="HTML address with /schedules[parameter]" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="350" y="340" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="20" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
@@ -60,8 +60,40 @@
                 <mxCell id="13" value="Includes fetch request that can pass a parameter from HTML address so will pull back required data e.g. departure date.&amp;nbsp;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="600" y="240" width="270" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" value="Includes fetch request that can pass a parameter from HTML address so will pull back required data e.g. departure date.&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="63" value="Includes fetch request that can pass a parameter from HTML address so will pull back required data e.g. departure date.&amp;nbsp;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="600" y="350" width="270" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Route for posting saved data from user searches to a database for retrival later" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="450" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" style="edgeStyle=none;html=1;exitX=1.013;exitY=0.412;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="64" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="350" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="HTML address with /savesearch" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="450" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="600" y="480.0000000000002" as="targetPoint"/>
+                        <mxPoint x="470" y="479.9999999999998" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="Includes post request so will send data searched by user as JSON then sent to database to be added to it" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="460" width="270" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="570.0000000000002" as="targetPoint"/>
+                        <mxPoint x="160" y="530" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="160" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" value="Query function linked to database that will add data to database e.g. SQL code&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="570" width="120" height="70" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
